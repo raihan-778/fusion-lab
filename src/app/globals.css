@@ -5,6 +5,7 @@
   --foreground: #171717;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
+  --charcoal-purple: oklch(0.25 0.06 300);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
@@ -85,6 +86,7 @@
   --color-secondary-foreground: var(--secondary-foreground);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
+  --color-charcoal-purple: var(--charcoal-purple);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
   --color-destructive: var(--destructive);
