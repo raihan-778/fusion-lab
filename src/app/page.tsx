@@ -1,5 +1,6 @@
 "use client";
 
+import { MeetingBooking } from "@/components/meeting-booking";
 import { motion, useMotionValue, useScroll, useTransform } from "framer-motion";
 import {
   ArrowRight,
@@ -623,6 +624,17 @@ export default function Page() {
               </a>
             </div>
           </div>
+        </section>
+        {/* Booking Setion */}
+        <section id="contact" className="py-20">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <MeetingBooking />
+          </motion.div>
         </section>
 
         {/* Footer */}
